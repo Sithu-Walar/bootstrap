@@ -1,0 +1,24 @@
+body::before{
+  content: '';
+  display: block;
+  height: 60px;
+}
+#map{
+  width: 100%;
+  height: 100%;
+  
+}
+@media(min-width: 768px){
+    .news-input {
+        width: 50%;
+    }
+   
+}
+.card{
+    margin-bottom: 2rem;
+}
+@media(min-width:820px) {
+  .row{
+    min-width: 800px;
+  }
+}
